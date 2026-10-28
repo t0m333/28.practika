@@ -10,7 +10,7 @@ def показать_алканы():
     with psycopg.connect(
         dbname="organic_chemistry",
         user="postgres",
-        password="Admin", 
+        password="Пароль", 
         host="localhost",
         port=5432,
         connect_timeout=5
