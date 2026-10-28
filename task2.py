@@ -12,7 +12,7 @@ def show_data():
     conn = psycopg.connect(
         dbname="alkenes_task2",
         user="postgres",
-        password="Admin", # мой пароль
+        password="Пароль", # пароль
         host="localhost",
         port=5432
     )
